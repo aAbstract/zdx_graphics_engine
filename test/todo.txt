@@ -1,0 +1,2 @@
+- multi threading optimiztion
+- fix accumalted rotaions glitch

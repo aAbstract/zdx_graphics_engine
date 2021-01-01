@@ -1,0 +1,1 @@
+g++ -O3 -o $1 $2 -lX11 -lGL -lpthread -lpng -lstdc++fs -std=c++17

@@ -1,0 +1,13 @@
+-- Configure OpenGL Linux --
+    sudo apt-get install apt-file
+    sudo apt-file update
+    sudo apt-file search "gl.h" -> sudo apt-file search "gl.h" | grep mesa -> package name (mesa-common-dev: /usr/share/doc/mesa-common-dev/egl.html)
+    sudo apt-get install mesa-common-dev -> #include <GL/gl.h>
+    sudo apt-get install libpng-dev -> #include <png.h>
+
+-- Engine Future Optimizations --
+    Implement Specialized System Render API
+    Design Two Data Strucutres For 3D Projection Vector And Normal 3D Vector -> (To Reduce Memeory Usage by Cross Product Operation in zdx_math Class)
+
+-- VSCODE NOTES --
+    To Debug CPP in VSCODE Use Default Debugger Settings and Map The Configuraion File to The Compiled Binary (Compiled With The Debugger Flag (-g))
